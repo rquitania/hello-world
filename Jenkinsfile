@@ -9,5 +9,14 @@ pipeline {
                 echo "This is another change!"
             }
         }
+        stage('update jira') {
+              try {
+                    error "Exception"
+                } catch(error) {
+                    def comment = "${BUILD_URL} FAILED - ${ERROR}"
+                    jiraAddComment idOrKey: 'GENERIC-999', comment: comment, site: 'YOURJIRASITE'
+                    currentBuild.result = 'FAILURE'
+                }
+        }
     }
 }
