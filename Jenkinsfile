@@ -8,6 +8,7 @@ pipeline {
                 echo "This is another change!"
                 echo "This is another change!"
                 echo "One more change!"
+                echo "This is a test"
             }
         }
         /*
