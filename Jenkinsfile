@@ -9,6 +9,7 @@ pipeline {
                 echo "This is another change!"
             }
         }
+        /*
         stage('update jira') {
               try {
                     error "Exception"
@@ -18,5 +19,6 @@ pipeline {
                     currentBuild.result = 'FAILURE'
                 }
         }
+        */
     }
 }
