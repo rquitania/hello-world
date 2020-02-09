@@ -7,6 +7,7 @@ pipeline {
                 echo "This is a PR!"
                 echo "This is another change!"
                 echo "This is another change!"
+                echo "One more change!"
             }
         }
         /*
