@@ -14,6 +14,7 @@ pipeline {
                 echo "Test 2/10 @ 1:27PM"
                 echo "Test 2/11 @ 1:53PM"
                 echo "Test 2/11 @ 2:46PM"
+                echo "Test 2/11 @ 3:00PM"
             }
         }
         /*
